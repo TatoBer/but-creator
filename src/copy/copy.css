@@ -1,0 +1,62 @@
+
+.copy-container {
+    display: flex;
+    margin-top: 55px;
+    position: relative;
+    justify-content: center;
+  }
+  
+  .copy-container div {
+    padding: 15px;
+    margin: 0 15px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.164);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .copy-container div svg {
+    font-size: 35px;
+  }
+  
+  .copy-container p {
+    position: absolute;
+    top: -35px;
+    opacity: .5;
+    pointer-events: none;
+  }
+  
+  .copy-container div span {
+    width: 7rem;
+    background-color: #0000008c;
+    text-align: center;
+    padding: 6px 0;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    top: -20px;
+    left: 50%;
+    transform: translate(-50%, 40px);
+    pointer-events: none;
+    transition: opacity .3s ease, transform .3s ease;
+    opacity: 0;
+  }
+  
+  .copy-container div:hover span {
+    opacity: 1;
+    transform: translate(-50% , -20px);
+  }
+  
+  .copy-container div span::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #0000008c transparent transparent transparent;
+  }

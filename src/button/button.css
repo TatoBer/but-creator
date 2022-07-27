@@ -1,0 +1,49 @@
+.button-custom {
+  margin: 40px;
+  padding: 20px;
+  color: var(--color-text);
+
+  backdrop-filter: blur(7px);
+
+  cursor: pointer;
+
+  border-radius: 50px;
+  position: sticky;
+  top: 40px;
+  z-index: 999999;
+
+  transition: all 0.3s ease;
+
+  border: none;
+}
+
+.dark-b {
+  background: #0000008c;
+  border: none;
+}
+
+
+.solid-b {
+  background: var(--color-primary);
+  border: none;
+}
+
+.transparent-b {
+  background: var(--color-primary-t);
+  border: none;
+}
+
+.radial-b {
+    background: linear-gradient(220.55deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+    border: none;
+}
+
+.lineal-b {
+    background: linear-gradient(0deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+    border: none;
+}
+
+.transp-lineal-b {
+  background: linear-gradient(0deg, var(--color-primary) 0%, #00000000 100%);
+  border: none;
+}
