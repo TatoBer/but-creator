@@ -42,15 +42,15 @@ code {
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #0c1016;
+  background-color: #18120d;
   border-radius: 10px;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-  background-color: #131820;
+  background-color: #221912;
   border-radius: 10px;
 }
 
 *::-webkit-scrollbar-track {
-  background-color: #181f2c;
+  background-color: #251c14;
 }

@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header>
         <h1>button<b>creator</b> <MdSettingsSuggest /></h1>
-        <h2>Create your buttons <b>easy</b> and <b>fast</b> !</h2>
+        <h2>Create your buttons <b>easy</b> and <b>fast</b>!</h2>
     </header>
   )
 }
