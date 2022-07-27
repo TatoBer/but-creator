@@ -2,6 +2,7 @@
   padding: 20px;
   color: var(--color-text);
   letter-spacing: 2px;
+  font-weight: bold;
 
   backdrop-filter: blur(7px);
 
@@ -100,10 +101,6 @@
   border: 2px solid #0000009f;
 }
 
-.shadow-b {
-  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.281);
-}
-
 .bottom-b {
   border-bottom: 4px solid var(--color-secondary);
 }
@@ -113,7 +110,6 @@
 }
 
 .hover-b1:hover {
-  transform: none;
   opacity: .4;
 }
 
@@ -123,4 +119,52 @@
 
 .hover-b3:hover {
   transform: scale(.9);
+}
+
+.hover-b4:hover {
+  box-shadow:
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+
+.hover-b5:hover {
+  filter: grayscale(1);
+}
+
+.hover-b6:hover {
+  filter: blur(2px);
+}
+
+.hover-b7:hover {
+  filter: saturate(2);
+}
+
+.hover-b8:hover {
+  border-radius: 0px !important;
+}
+
+.shadow-b1 {
+  box-shadow: 5px 5px 15px #0000006b;
+}
+
+.shadow-b2 {
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+}
+
+.text-b1 {
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.418);
+}
+
+b.text-b1 {
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.418) !important;
+}
+
+.text-b2 {
+  text-shadow: 0 2px rgba(0, 0, 0, 0.521);
+}
+
+b.text-b2 {
+  text-shadow: 0 2px rgba(0, 0, 0, 0.521) !important;
 }

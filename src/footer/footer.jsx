@@ -11,7 +11,7 @@ export default function Footer() {
         <small>
           <a
             target="_blank"
-            href="https://github.com/TatoBer/nav-creator"
+            href="https://github.com/TatoBer/but-creator"
           >
             Repository
           </a>{" "}
